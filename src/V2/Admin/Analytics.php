@@ -17,5 +17,4 @@ final class Analytics extends \DeepLSDK\DeepLAPIDocumentationSDK
     {
         return self::client()->resource(\DeepLSDK\Resources\V2\Admin\Analytics::class)->get($params);
     }
-
 }

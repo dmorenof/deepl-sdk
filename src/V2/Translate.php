@@ -18,5 +18,4 @@ final class Translate extends \DeepLSDK\DeepLAPIDocumentationSDK
     {
         return self::client()->resource(\DeepLSDK\Resources\V2\Translate::class)->post($params);
     }
-
 }

@@ -17,5 +17,4 @@ final class ConfiguredRules extends \Dmorenof\SdkRuntime\DTO
     public \DeepLSDK\DTOs\ConfiguredRules\AndGrammarDTO $spelling_and_grammar;
     public \DeepLSDK\DTOs\ConfiguredRules\AndToneDTO $style_and_tone;
     public \DeepLSDK\DTOs\ConfiguredRules\VocabularyDTO $vocabulary;
-
 }

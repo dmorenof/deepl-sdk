@@ -66,5 +66,4 @@ final class Label extends \DeepLSDK\Client
         $result = $this->executeBody(self::operation(self::PUT), $payload);
         return $result;
     }
-
 }

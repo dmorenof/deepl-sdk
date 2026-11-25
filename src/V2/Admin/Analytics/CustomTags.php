@@ -19,5 +19,4 @@ final class CustomTags extends \DeepLSDK\DeepLAPIDocumentationSDK
     {
         return self::client()->resource(\DeepLSDK\Resources\V2\Admin\Analytics\CustomTags::class)->get($params);
     }
-
 }

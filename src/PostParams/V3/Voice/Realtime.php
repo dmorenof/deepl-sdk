@@ -7,30 +7,30 @@ namespace DeepLSDK\PostParams\V3\Voice;
 final class Realtime extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'body',
-];
+        'body',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [],
-    'header' => [
-        'X-DeepL-Reporting-Tag' => 'XDeepLReportingTag',
-    ],
-];
+        'path' => [],
+        'query' => [],
+        'header' => [
+            'X-DeepL-Reporting-Tag' => 'XDeepLReportingTag',
+        ],
+    ];
 
     protected const array PROPERTY_MAP = [
-    'X-DeepL-Reporting-Tag' => 'XDeepLReportingTag',
-];
+        'X-DeepL-Reporting-Tag' => 'XDeepLReportingTag',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'XDeepLReportingTag' => 'X-DeepL-Reporting-Tag',
-];
+        'XDeepLReportingTag' => 'X-DeepL-Reporting-Tag',
+    ];
 
     public const bool OPERATION_BODY = true;
 
     protected const array VALIDATION = [
-    'XDeepLReportingTag' => [
-        'maxLength' => 100,
-    ],
-];
+        'XDeepLReportingTag' => [
+            'maxLength' => 100,
+        ],
+    ];
 
     public ?string $XDeepLReportingTag {
         set {

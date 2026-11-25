@@ -99,5 +99,4 @@ final class Result extends \DeepLSDK\Client
         $result = $this->executeBody(self::operation(self::POST), $payload, path: ['document_id' => $document_id]);
         return $result;
     }
-
 }

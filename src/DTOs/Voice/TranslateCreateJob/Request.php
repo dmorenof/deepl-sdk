@@ -7,15 +7,15 @@ namespace DeepLSDK\DTOs\Voice\TranslateCreateJob;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'source_file',
-    'targets',
-];
+        'source_file',
+        'targets',
+    ];
 
     protected const array VALIDATION = [
-    'targets' => [
-        'minItems' => 1,
-    ],
-];
+        'targets' => [
+            'minItems' => 1,
+        ],
+    ];
 
     public \DeepLSDK\DTOs\Voice\TranslateJobParameters\Request $parameters;
     public \DeepLSDK\DTOs\Job\SourceFile\Request $source_file;

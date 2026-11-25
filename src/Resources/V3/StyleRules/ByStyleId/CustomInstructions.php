@@ -304,5 +304,4 @@ final class CustomInstructions extends \DeepLSDK\Client
         $result = $this->executeBody(self::operation(self::PUT_BY_INSTRUCTION_ID), $payload, path: $identifier);
         return $result;
     }
-
 }

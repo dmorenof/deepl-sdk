@@ -7,17 +7,17 @@ namespace DeepLSDK\DTOs\QualityEvaluation;
 final class Segment extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'errors',
-    'segment_index',
-    'segment_score',
-];
+        'errors',
+        'segment_index',
+        'segment_score',
+    ];
 
     protected const array VALIDATION = [
-    'segment_score' => [
-        'minimum' => 0,
-        'maximum' => 100,
-    ],
-];
+        'segment_score' => [
+            'minimum' => 0,
+            'maximum' => 100,
+        ],
+    ];
 
     /**
      * Glossary term pairs applied to this segment when the document was translated, so you can tell which customizations were in play where an issue was reported. Omitted when no term pair was applied.

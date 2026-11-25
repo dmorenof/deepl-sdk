@@ -7,9 +7,9 @@ namespace DeepLSDK\DTOs\Create;
 final class MultilingualGlossaryParameters extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'dictionaries',
-    'name',
-];
+        'dictionaries',
+        'name',
+    ];
 
     /**
      * Dictionaries to populate the glossary with.

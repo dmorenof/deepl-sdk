@@ -7,8 +7,8 @@ namespace DeepLSDK\Responses\V3\Languages\Resources\Get\ResponseItem;
 final class ResponseItemFeaturesResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'name',
-];
+        'name',
+    ];
 
     /**
      * The feature identifier, corresponding to keys in the `features` object returned by `GET /v3/languages`.

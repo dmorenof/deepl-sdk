@@ -228,5 +228,4 @@ final class Document extends \DeepLSDK\Client
         $result = $this->executeBody(self::operation(self::POST_BY_DOCUMENT_ID), $payload, path: ['document_id' => $document_id]);
         return $result;
     }
-
 }

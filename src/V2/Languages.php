@@ -20,5 +20,4 @@ final class Languages extends \DeepLSDK\DeepLAPIDocumentationSDK
     {
         return self::client()->resource(\DeepLSDK\Resources\V2\Languages::class)->get($params);
     }
-
 }

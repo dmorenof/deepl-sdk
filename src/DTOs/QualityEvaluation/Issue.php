@@ -7,13 +7,13 @@ namespace DeepLSDK\DTOs\QualityEvaluation;
 final class Issue extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'explanation',
-    'severity',
-    'source_spans',
-    'sub_type',
-    'target_spans',
-    'type',
-];
+        'explanation',
+        'severity',
+        'source_spans',
+        'sub_type',
+        'target_spans',
+        'type',
+    ];
 
     /**
      * Description of the issue. May span multiple sentences.

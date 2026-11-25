@@ -7,19 +7,19 @@ namespace DeepLSDK\Requests\V2\Translate;
 final class Post extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'target_lang',
-    'text',
-];
+        'target_lang',
+        'text',
+    ];
 
     protected const array VALIDATION = [
-    'glossary_ids' => [
-        'maxItems' => 5,
-    ],
-    'translation_memory_threshold' => [
-        'minimum' => 0,
-        'maximum' => 100,
-    ],
-];
+        'glossary_ids' => [
+            'maxItems' => 5,
+        ],
+        'translation_memory_threshold' => [
+            'minimum' => 0,
+            'maximum' => 100,
+        ],
+    ];
 
     /**
      * Additional context that can influence a translation but is not translated itself.

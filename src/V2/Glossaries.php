@@ -52,5 +52,4 @@ final class Glossaries extends \DeepLSDK\DeepLAPIDocumentationSDK
     {
         return self::client()->resource(\DeepLSDK\Resources\V2\Glossaries::class)->getByGlossaryId($glossary_id);
     }
-
 }

@@ -24,5 +24,4 @@ final class Segments extends \DeepLSDK\DeepLAPIDocumentationSDK
     {
         return self::client()->resource(\DeepLSDK\Resources\V3\TranslationMemories\ByTranslationMemoryId\Segments::class)->get($translation_memory_id, $params);
     }
-
 }

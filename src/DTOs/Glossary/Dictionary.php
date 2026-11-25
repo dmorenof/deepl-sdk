@@ -10,8 +10,8 @@ namespace DeepLSDK\DTOs\Glossary;
 final class Dictionary extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array READ_ONLY_FIELDS = [
-    'entry_count',
-];
+        'entry_count',
+    ];
 
     /**
      * The entries of the glossary. The entries have to be specified in the format provided by the `entries_format` parameter.

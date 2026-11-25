@@ -7,21 +7,21 @@ namespace DeepLSDK;
 class Client extends \Dmorenof\SdkRuntime\ApiClient
 {
     protected const array SECURITY_SCHEMES = [
-    'auth_header' => [
-        'type' => 'apiKey',
-        'scheme' => null,
-        'location' => 'header',
-        'parameterName' => 'Authorization',
-    ],
-];
+        'auth_header' => [
+            'type' => 'apiKey',
+            'scheme' => null,
+            'location' => 'header',
+            'parameterName' => 'Authorization',
+        ],
+    ];
     protected const array SERVERS = [
-    [
-        'url' => 'https://api.deepl.com',
-    ],
-    [
-        'url' => 'https://api-free.deepl.com',
-    ],
-];
+        [
+            'url' => 'https://api.deepl.com',
+        ],
+        [
+            'url' => 'https://api-free.deepl.com',
+        ],
+    ];
 
     private static ?self $currentConnection = null;
 

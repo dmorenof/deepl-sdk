@@ -18,5 +18,4 @@ final class Usage extends \DeepLSDK\DeepLAPIDocumentationSDK
     {
         return self::client()->resource(\DeepLSDK\Resources\V2\Usage::class)->get();
     }
-
 }

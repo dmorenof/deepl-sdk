@@ -29,5 +29,4 @@ final class DeveloperKeys extends \DeepLSDK\DeepLAPIDocumentationSDK
     {
         return self::client()->resource(\DeepLSDK\Resources\V2\Admin\DeveloperKeys::class)->post($payload);
     }
-
 }

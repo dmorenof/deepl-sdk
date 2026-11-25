@@ -10,9 +10,9 @@ namespace DeepLSDK\DTOs\QualityEvaluation;
 final class Span extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'end',
-    'start',
-];
+        'end',
+        'start',
+    ];
 
     /**
      * Exclusive end index. A 0-based Unicode code-point offset.

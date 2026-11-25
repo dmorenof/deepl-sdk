@@ -18,5 +18,4 @@ final class Rephrase extends \DeepLSDK\DeepLAPIDocumentationSDK
     {
         return self::client()->resource(\DeepLSDK\Resources\V2\Write\Rephrase::class)->post($payload);
     }
-
 }

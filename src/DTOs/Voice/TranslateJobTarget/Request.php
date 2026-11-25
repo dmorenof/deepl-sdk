@@ -10,9 +10,9 @@ namespace DeepLSDK\DTOs\Voice\TranslateJobTarget;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'language',
-    'type',
-];
+        'language',
+        'type',
+    ];
 
     /**
      * The language into which the text should be translated.

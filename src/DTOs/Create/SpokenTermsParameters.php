@@ -7,15 +7,15 @@ namespace DeepLSDK\DTOs\Create;
 final class SpokenTermsParameters extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'name',
-    'term_lists',
-];
+        'name',
+        'term_lists',
+    ];
 
     protected const array VALIDATION = [
-    'name' => [
-        'maxLength' => 1024,
-    ],
-];
+        'name' => [
+            'maxLength' => 1024,
+        ],
+    ];
 
     /**
      * Name for the Spoken Terms collection.

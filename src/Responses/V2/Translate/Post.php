@@ -7,10 +7,10 @@ namespace DeepLSDK\Responses\V2\Translate;
 final class Post extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'translations' => [
-        'minItems' => 1,
-    ],
-];
+        'translations' => [
+            'minItems' => 1,
+        ],
+    ];
 
     public \DeepLSDK\Collections\V2\Translate\Post\TranslateTranslationsCollection $translations {
         set {
@@ -18,5 +18,4 @@ final class Post extends \Dmorenof\SdkRuntime\DTO
             $this->translations = $value;
         }
     }
-
 }

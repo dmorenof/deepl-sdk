@@ -29,5 +29,4 @@ final class Translate extends \DeepLSDK\DeepLAPIDocumentationSDK
     {
         return self::client()->resource(\DeepLSDK\Resources\V1\Jobs\Voice\Translate::class)->getByJobId($job_id, $params);
     }
-
 }

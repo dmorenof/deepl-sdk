@@ -7,12 +7,12 @@ namespace DeepLSDK\DTOs\Create;
 final class GlossaryParameters extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'entries',
-    'entries_format',
-    'name',
-    'source_lang',
-    'target_lang',
-];
+        'entries',
+        'entries_format',
+        'name',
+        'source_lang',
+        'target_lang',
+    ];
 
     /**
      * The entries of the glossary. The entries have to be specified in the format provided by the `entries_format` parameter.

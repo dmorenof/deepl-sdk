@@ -7,9 +7,9 @@ namespace DeepLSDK\Requests\V2\Admin\DeveloperKeys\Label;
 final class Put extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'key_id',
-    'label',
-];
+        'key_id',
+        'label',
+    ];
 
     /**
      * API key ID. Consists of two valid GUIDs separated by a colon.

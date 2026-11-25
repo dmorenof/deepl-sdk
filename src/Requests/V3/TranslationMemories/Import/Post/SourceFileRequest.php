@@ -7,21 +7,21 @@ namespace DeepLSDK\Requests\V3\TranslationMemories\Import\Post;
 final class SourceFileRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'content_length',
-    'file_name',
-];
+        'content_length',
+        'file_name',
+    ];
 
     protected const array VALIDATION = [
-    'content_length' => [
-        'minimum' => 1,
-    ],
-    'content_type' => [
-        'maxLength' => 127,
-    ],
-    'file_name' => [
-        'maxLength' => 100,
-    ],
-];
+        'content_length' => [
+            'minimum' => 1,
+        ],
+        'content_type' => [
+            'maxLength' => 127,
+        ],
+        'file_name' => [
+            'maxLength' => 100,
+        ],
+    ];
 
     /**
      * The size of the file in bytes. Must be greater than 0 and at most 1 GB. An oversize

@@ -10,8 +10,8 @@ namespace DeepLSDK\DTOs\TranslationMemory;
 final class JobResult extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'status',
-];
+        'status',
+    ];
 
     /**
      * A short-lived URL to download the exported TMX file from. Present on completed export jobs

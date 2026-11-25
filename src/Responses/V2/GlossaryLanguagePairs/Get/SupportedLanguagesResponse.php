@@ -7,9 +7,9 @@ namespace DeepLSDK\Responses\V2\GlossaryLanguagePairs\Get;
 final class SupportedLanguagesResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'source_lang',
-    'target_lang',
-];
+        'source_lang',
+        'target_lang',
+    ];
 
     /**
      * The language in which the source texts in the glossary are specified.

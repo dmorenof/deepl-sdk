@@ -7,10 +7,10 @@ namespace DeepLSDK\DTOs\Voice\TranslateCreateJob;
 final class Response extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'job_id',
-    'signature',
-    'upload_url',
-];
+        'job_id',
+        'signature',
+        'upload_url',
+    ];
 
     /**
      * The unique identifier of the created job.

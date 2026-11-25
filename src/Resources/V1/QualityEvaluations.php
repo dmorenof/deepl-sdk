@@ -69,5 +69,4 @@ final class QualityEvaluations extends \DeepLSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_JOB_ID), path: ['job_id' => $job_id]);
         return $result;
     }
-
 }

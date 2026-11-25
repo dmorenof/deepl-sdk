@@ -7,12 +7,12 @@ namespace DeepLSDK\DTOs;
 final class TranslationMemory extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'name',
-    'segment_count',
-    'source_language',
-    'target_languages',
-    'translation_memory_id',
-];
+        'name',
+        'segment_count',
+        'source_language',
+        'target_languages',
+        'translation_memory_id',
+    ];
 
     /**
      * The creation time of the translation memory in the ISO 8601-1:2019 format (e.g.: `2021-08-03T14:16:18.329Z`).

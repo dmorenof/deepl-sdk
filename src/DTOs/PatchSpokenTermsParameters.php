@@ -7,10 +7,10 @@ namespace DeepLSDK\DTOs;
 final class PatchSpokenTermsParameters extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'name' => [
-        'maxLength' => 1024,
-    ],
-];
+        'name' => [
+            'maxLength' => 1024,
+        ],
+    ];
 
     /**
      * New name for the Spoken Terms collection.

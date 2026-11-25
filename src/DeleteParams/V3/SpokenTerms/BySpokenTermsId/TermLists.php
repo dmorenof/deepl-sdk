@@ -7,15 +7,15 @@ namespace DeepLSDK\DeleteParams\V3\SpokenTerms\BySpokenTermsId;
 final class TermLists extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'lang',
-];
+        'lang',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'lang' => 'lang',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'lang' => 'lang',
+        ],
+        'header' => [],
+    ];
 
     public string $lang;
 }

@@ -7,9 +7,9 @@ namespace DeepLSDK\DTOs\Voice\Streaming;
 final class Response extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'streaming_url',
-    'token',
-];
+        'streaming_url',
+        'token',
+    ];
 
     /**
      * Internal use only. A unique identifier for the requested stream.

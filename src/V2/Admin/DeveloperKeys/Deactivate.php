@@ -17,5 +17,4 @@ final class Deactivate extends \DeepLSDK\DeepLAPIDocumentationSDK
     {
         return self::client()->resource(\DeepLSDK\Resources\V2\Admin\DeveloperKeys\Deactivate::class)->put($payload);
     }
-
 }

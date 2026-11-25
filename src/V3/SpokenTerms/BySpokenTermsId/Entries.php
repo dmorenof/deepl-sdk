@@ -16,5 +16,4 @@ final class Entries extends \DeepLSDK\DeepLAPIDocumentationSDK
     {
         return self::client()->resource(\DeepLSDK\Resources\V3\SpokenTerms\BySpokenTermsId\Entries::class)->get($spoken_terms_id, $params);
     }
-
 }

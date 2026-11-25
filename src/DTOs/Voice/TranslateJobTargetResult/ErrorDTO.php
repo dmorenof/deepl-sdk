@@ -10,8 +10,8 @@ namespace DeepLSDK\DTOs\Voice\TranslateJobTargetResult;
 final class ErrorDTO extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'message',
-];
+        'message',
+    ];
 
     /**
      * A machine-readable identifier for the error, when available. Clients should match on this value rather than on `message` when branching on error types.

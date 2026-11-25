@@ -10,10 +10,10 @@ namespace DeepLSDK\DTOs;
 final class CustomInstruction extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'id',
-    'label',
-    'prompt',
-];
+        'id',
+        'label',
+        'prompt',
+    ];
 
     /**
      * Unique identifier for the custom instruction

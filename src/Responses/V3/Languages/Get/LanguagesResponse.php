@@ -7,13 +7,13 @@ namespace DeepLSDK\Responses\V3\Languages\Get;
 final class LanguagesResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'features',
-    'lang',
-    'name',
-    'status',
-    'usable_as_source',
-    'usable_as_target',
-];
+        'features',
+        'lang',
+        'name',
+        'status',
+        'usable_as_source',
+        'usable_as_target',
+    ];
 
     /**
      * Features supported for this language with the specified resource. Always present;

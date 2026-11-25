@@ -11,14 +11,14 @@ namespace DeepLSDK\DTOs\TranslationMemory;
 final class Job extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'creation_time',
-    'job_id',
-    'operation',
-    'parameters',
-    'product',
-    'results',
-    'updated_time',
-];
+        'creation_time',
+        'job_id',
+        'operation',
+        'parameters',
+        'product',
+        'results',
+        'updated_time',
+    ];
 
     /**
      * The time the job was created, in the ISO 8601-1:2019 format.

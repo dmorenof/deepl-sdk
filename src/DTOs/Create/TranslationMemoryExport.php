@@ -10,9 +10,9 @@ namespace DeepLSDK\DTOs\Create;
 final class TranslationMemoryExport extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'job_id',
-    'parameters',
-];
+        'job_id',
+        'parameters',
+    ];
 
     /**
      * The identifier of the export job. Use it to poll the job's status.

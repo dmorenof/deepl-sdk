@@ -21,5 +21,4 @@ final class GlossaryLanguagePairs extends \DeepLSDK\DeepLAPIDocumentationSDK
     {
         return self::client()->resource(\DeepLSDK\Resources\V2\GlossaryLanguagePairs::class)->get();
     }
-
 }

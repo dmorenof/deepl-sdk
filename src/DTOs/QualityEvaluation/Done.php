@@ -10,10 +10,10 @@ namespace DeepLSDK\DTOs\QualityEvaluation;
 final class Done extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'job_id',
-    'segments',
-    'status',
-];
+        'job_id',
+        'segments',
+        'status',
+    ];
 
     /**
      * Example: "04DE5AD98A02647D83285A36021911C6"

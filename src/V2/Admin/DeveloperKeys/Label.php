@@ -17,5 +17,4 @@ final class Label extends \DeepLSDK\DeepLAPIDocumentationSDK
     {
         return self::client()->resource(\DeepLSDK\Resources\V2\Admin\DeveloperKeys\Label::class)->put($payload);
     }
-
 }

@@ -133,5 +133,4 @@ final class TermLists extends \DeepLSDK\Client
         $result = $this->executeBody(self::operation(self::PUT), $payload, path: ['spoken_terms_id' => $spoken_terms_id]);
         return $result;
     }
-
 }

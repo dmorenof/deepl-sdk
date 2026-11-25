@@ -10,10 +10,10 @@ namespace DeepLSDK\DTOs\TranslationMemory;
 final class Segment extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'source_segment_id',
-    'source_text',
-    'targets',
-];
+        'source_segment_id',
+        'source_text',
+        'targets',
+    ];
 
     /**
      * The time the segment was added, in the ISO 8601-1:2019 format.

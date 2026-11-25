@@ -94,5 +94,4 @@ final class Entries extends \DeepLSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), path: ['glossary_id' => $glossary_id], parameters: $params);
         return $result;
     }
-
 }

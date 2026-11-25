@@ -10,10 +10,10 @@ namespace DeepLSDK\DTOs\QualityEvaluation;
 final class AppliedGlossaryTermPair extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'ranges',
-    'source_term',
-    'target_term',
-];
+        'ranges',
+        'source_term',
+        'target_term',
+    ];
 
     /**
      * Spans in `target` where the target term was applied, using the same convention as `source_spans` and `target_spans`. See [Span ranges](/api-reference/quality-evaluations/poll#span-ranges).

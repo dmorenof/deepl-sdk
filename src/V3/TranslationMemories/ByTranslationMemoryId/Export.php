@@ -28,5 +28,4 @@ final class Export extends \DeepLSDK\DeepLAPIDocumentationSDK
     {
         return self::client()->resource(\DeepLSDK\Resources\V3\TranslationMemories\ByTranslationMemoryId\Export::class)->post($translation_memory_id);
     }
-
 }

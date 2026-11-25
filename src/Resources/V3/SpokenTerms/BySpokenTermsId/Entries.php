@@ -64,5 +64,4 @@ final class Entries extends \DeepLSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), path: ['spoken_terms_id' => $spoken_terms_id], parameters: $params);
         return $result;
     }
-
 }

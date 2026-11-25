@@ -7,9 +7,9 @@ namespace DeepLSDK\Responses\V2\Languages\Get;
 final class LanguagesResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'language',
-    'name',
-];
+        'language',
+        'name',
+    ];
 
     /**
      * The language code of the given language.

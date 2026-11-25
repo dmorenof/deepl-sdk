@@ -81,5 +81,4 @@ final class ConfiguredRules extends \DeepLSDK\Client
         $result = $this->executeBody(self::operation(self::PUT), $payload, path: ['style_id' => $style_id]);
         return $result;
     }
-
 }

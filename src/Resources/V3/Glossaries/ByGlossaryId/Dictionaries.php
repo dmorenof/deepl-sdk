@@ -185,5 +185,4 @@ final class Dictionaries extends \DeepLSDK\Client
         $result = func_num_args() > 1 ? $this->executeBody(self::operation(self::PUT), $payload, path: ['glossary_id' => $glossary_id]) : $this->executeArguments(self::operation(self::PUT), path: ['glossary_id' => $glossary_id]);
         return $result;
     }
-
 }

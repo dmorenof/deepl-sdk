@@ -97,5 +97,4 @@ final class Translate extends \DeepLSDK\Client
         $result = $this->executeArguments(self::operation(self::POST), parameters: $params);
         return $result;
     }
-
 }

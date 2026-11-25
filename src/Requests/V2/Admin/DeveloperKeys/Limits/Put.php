@@ -7,8 +7,8 @@ namespace DeepLSDK\Requests\V2\Admin\DeveloperKeys\Limits;
 final class Put extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'key_id',
-];
+        'key_id',
+    ];
 
     /**
      * Restricts the number of total characters (across text translation, document translation, and text improvement) that can be consumed by an API key in a one-month usage period.

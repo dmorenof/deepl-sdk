@@ -11,9 +11,8 @@ namespace DeepLSDK\DTOs;
 final class InfrastructureErrorResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'error',
-];
+        'error',
+    ];
 
     public \DeepLSDK\DTOs\InfrastructureErrorResponse\ErrorDTO $error;
-
 }

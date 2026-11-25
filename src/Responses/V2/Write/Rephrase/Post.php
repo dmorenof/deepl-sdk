@@ -7,10 +7,10 @@ namespace DeepLSDK\Responses\V2\Write\Rephrase;
 final class Post extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'improvements' => [
-        'minItems' => 1,
-    ],
-];
+        'improvements' => [
+            'minItems' => 1,
+        ],
+    ];
 
     public \DeepLSDK\Collections\V2\Write\Rephrase\Post\RephraseImprovementsCollection $improvements {
         set {
@@ -18,5 +18,4 @@ final class Post extends \Dmorenof\SdkRuntime\DTO
             $this->improvements = $value;
         }
     }
-
 }

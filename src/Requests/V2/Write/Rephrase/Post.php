@@ -7,8 +7,8 @@ namespace DeepLSDK\Requests\V2\Write\Rephrase;
 final class Post extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'text',
-];
+        'text',
+    ];
 
     public \DeepLSDK\Enums\TargetLanguageWrite $target_lang;
     /**

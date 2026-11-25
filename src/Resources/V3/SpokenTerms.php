@@ -319,5 +319,4 @@ final class SpokenTerms extends \DeepLSDK\Client
         $result = $this->executeBody(self::operation(self::PATCH_BY_SPOKEN_TERMS_ID), $payload, path: ['spoken_terms_id' => $spoken_terms_id]);
         return $result;
     }
-
 }

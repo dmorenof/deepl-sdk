@@ -22,5 +22,4 @@ final class Jobs extends \DeepLSDK\DeepLAPIDocumentationSDK
     {
         return self::client()->resource(\DeepLSDK\Resources\V3\TranslationMemories\Jobs::class)->getByJobId($job_id);
     }
-
 }

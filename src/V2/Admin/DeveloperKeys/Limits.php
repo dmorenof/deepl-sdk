@@ -18,5 +18,4 @@ final class Limits extends \DeepLSDK\DeepLAPIDocumentationSDK
     {
         return self::client()->resource(\DeepLSDK\Resources\V2\Admin\DeveloperKeys\Limits::class)->put($payload);
     }
-
 }

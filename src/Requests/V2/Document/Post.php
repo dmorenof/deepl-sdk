@@ -7,19 +7,19 @@ namespace DeepLSDK\Requests\V2\Document;
 final class Post extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'file',
-    'target_lang',
-];
+        'file',
+        'target_lang',
+    ];
 
     protected const array VALIDATION = [
-    'glossary_ids' => [
-        'maxItems' => 5,
-    ],
-    'translation_memory_threshold' => [
-        'minimum' => 0,
-        'maximum' => 100,
-    ],
-];
+        'glossary_ids' => [
+            'maxItems' => 5,
+        ],
+        'translation_memory_threshold' => [
+            'minimum' => 0,
+            'maximum' => 100,
+        ],
+    ];
 
     /**
      * Specify a list of instructions to customize the translation behavior, as a JSON array of strings, for example `["Use a friendly, diplomatic tone"]`. Up to 10 custom instructions can be specified, each with a maximum of 300 characters.

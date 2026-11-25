@@ -7,8 +7,8 @@ namespace DeepLSDK\Responses\V3\Languages\Get\ResponseItem;
 final class FeaturesValueResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'status',
-];
+        'status',
+    ];
 
     /**
      * Availability status of this feature for this language.

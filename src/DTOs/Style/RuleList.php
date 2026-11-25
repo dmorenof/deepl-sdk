@@ -7,13 +7,13 @@ namespace DeepLSDK\DTOs\Style;
 final class RuleList extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'creation_time',
-    'language',
-    'name',
-    'style_id',
-    'updated_time',
-    'version',
-];
+        'creation_time',
+        'language',
+        'name',
+        'style_id',
+        'updated_time',
+        'version',
+    ];
 
     public \DeepLSDK\DTOs\ConfiguredRules $configured_rules;
     /**

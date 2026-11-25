@@ -65,5 +65,4 @@ final class StyleRules extends \DeepLSDK\DeepLAPIDocumentationSDK
     {
         return self::client()->resource(\DeepLSDK\Resources\V3\StyleRules::class)->patchByStyleId($style_id, $payload);
     }
-
 }

@@ -84,5 +84,4 @@ final class StyleProfiles extends \DeepLSDK\DeepLAPIDocumentationSDK
     {
         return self::client()->resource(\DeepLSDK\Resources\V3\StyleProfiles::class)->patchByStyleProfileId($style_profile_id, $payload);
     }
-
 }

@@ -65,5 +65,4 @@ final class Analytics extends \DeepLSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), parameters: $params);
         return $result;
     }
-
 }

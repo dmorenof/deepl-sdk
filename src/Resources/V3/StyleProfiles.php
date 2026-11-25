@@ -385,5 +385,4 @@ final class StyleProfiles extends \DeepLSDK\Client
         $result = $this->executeBody(self::operation(self::PATCH_BY_STYLE_PROFILE_ID), $payload, path: ['style_profile_id' => $style_profile_id]);
         return $result;
     }
-
 }

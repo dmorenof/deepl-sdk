@@ -367,5 +367,4 @@ final class Glossaries extends \DeepLSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_GLOSSARY_ID), path: ['glossary_id' => $glossary_id]);
         return $result;
     }
-
 }

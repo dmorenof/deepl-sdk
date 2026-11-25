@@ -31,5 +31,4 @@ final class Document extends \DeepLSDK\DeepLAPIDocumentationSDK
     {
         return self::client()->resource(\DeepLSDK\Resources\V2\Document::class)->postByDocumentId($document_id, $payload);
     }
-
 }

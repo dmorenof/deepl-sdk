@@ -7,9 +7,9 @@ namespace DeepLSDK\Responses\V3\TranslationMemories\ByTranslationMemoryId\Segmen
 final class Get extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'segment_count',
-    'segments',
-];
+        'segment_count',
+        'segments',
+    ];
 
     /**
      * The cursor to pass as `page_cursor` to retrieve the next page. Absent on the last page.

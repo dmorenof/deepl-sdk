@@ -27,5 +27,4 @@ final class TermLists extends \DeepLSDK\DeepLAPIDocumentationSDK
     {
         return self::client()->resource(\DeepLSDK\Resources\V3\SpokenTerms\BySpokenTermsId\TermLists::class)->put($spoken_terms_id, $payload);
     }
-
 }

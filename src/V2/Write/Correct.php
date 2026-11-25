@@ -17,5 +17,4 @@ final class Correct extends \DeepLSDK\DeepLAPIDocumentationSDK
     {
         return self::client()->resource(\DeepLSDK\Resources\V2\Write\Correct::class)->post($payload);
     }
-
 }

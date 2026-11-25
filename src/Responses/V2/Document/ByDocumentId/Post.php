@@ -7,9 +7,9 @@ namespace DeepLSDK\Responses\V2\Document\ByDocumentId;
 final class Post extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'document_id',
-    'status',
-];
+        'document_id',
+        'status',
+    ];
 
     /**
      * The number of characters billed to your account. The characters will only be billed after a successful download request.

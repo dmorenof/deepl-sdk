@@ -7,8 +7,8 @@ namespace DeepLSDK\DTOs;
 final class DocumentKey extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'document_key',
-];
+        'document_key',
+    ];
 
     /**
      * The document encryption key that was sent to the client when the document was uploaded to the API.

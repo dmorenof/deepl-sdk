@@ -7,8 +7,8 @@ namespace DeepLSDK\Requests\V3\StyleProfiles;
 final class Post extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'name',
-];
+        'name',
+    ];
 
     /**
      * Free-text description of the style profile. At most 1000 characters. Omit it to create

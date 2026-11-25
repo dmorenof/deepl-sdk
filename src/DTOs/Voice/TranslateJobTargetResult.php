@@ -10,8 +10,8 @@ namespace DeepLSDK\DTOs\Voice;
 final class TranslateJobTargetResult extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'status',
-];
+        'status',
+    ];
 
     /**
      * The URL to download the translated result via `GET`.

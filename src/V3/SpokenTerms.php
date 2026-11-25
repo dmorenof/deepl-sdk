@@ -60,5 +60,4 @@ final class SpokenTerms extends \DeepLSDK\DeepLAPIDocumentationSDK
     {
         return self::client()->resource(\DeepLSDK\Resources\V3\SpokenTerms::class)->patchBySpokenTermsId($spoken_terms_id, $payload);
     }
-
 }

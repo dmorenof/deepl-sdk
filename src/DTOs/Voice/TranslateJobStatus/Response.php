@@ -7,17 +7,17 @@ namespace DeepLSDK\DTOs\Voice\TranslateJobStatus;
 final class Response extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'created_at',
-    'job_id',
-    'operation',
-    'parameters',
-    'product',
-    'results',
-    'source_file',
-    'targets',
-    'updated_at',
-    'usage',
-];
+        'created_at',
+        'job_id',
+        'operation',
+        'parameters',
+        'product',
+        'results',
+        'source_file',
+        'targets',
+        'updated_at',
+        'usage',
+    ];
 
     /**
      * When the job was created (ISO 8601).

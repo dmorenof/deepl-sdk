@@ -461,5 +461,4 @@ final class Glossaries extends \DeepLSDK\Client
         $result = $this->executeBody(self::operation(self::PATCH_BY_GLOSSARY_ID), $payload, path: ['glossary_id' => $glossary_id]);
         return $result;
     }
-
 }

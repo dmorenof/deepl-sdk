@@ -7,15 +7,15 @@ namespace DeepLSDK\Requests\V3\StyleRules;
 final class Post extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'language',
-    'name',
-];
+        'language',
+        'name',
+    ];
 
     protected const array VALIDATION = [
-    'custom_instructions' => [
-        'maxItems' => 200,
-    ],
-];
+        'custom_instructions' => [
+            'maxItems' => 200,
+        ],
+    ];
 
     public \DeepLSDK\DTOs\ConfiguredRules $configured_rules;
     /**

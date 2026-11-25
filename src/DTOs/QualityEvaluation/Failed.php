@@ -10,10 +10,10 @@ namespace DeepLSDK\DTOs\QualityEvaluation;
 final class Failed extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'error',
-    'job_id',
-    'status',
-];
+        'error',
+        'job_id',
+        'status',
+    ];
 
     public \DeepLSDK\DTOs\QualityEvaluation\Failed\ErrorDTO $error;
     /**

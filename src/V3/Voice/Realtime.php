@@ -32,5 +32,4 @@ final class Realtime extends \DeepLSDK\DeepLAPIDocumentationSDK
     {
         return self::client()->resource(\DeepLSDK\Resources\V3\Voice\Realtime::class)->post($params);
     }
-
 }

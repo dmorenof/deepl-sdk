@@ -16,5 +16,4 @@ final class Entries extends \DeepLSDK\DeepLAPIDocumentationSDK
     {
         return self::client()->resource(\DeepLSDK\Resources\V2\Glossaries\ByGlossaryId\Entries::class)->get($glossary_id, $params);
     }
-
 }

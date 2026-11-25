@@ -51,5 +51,4 @@ final class CustomInstructions extends \DeepLSDK\DeepLAPIDocumentationSDK
     {
         return self::client()->resource(\DeepLSDK\Resources\V3\StyleRules\ByStyleId\CustomInstructions::class)->putByInstructionId($identifier, $payload);
     }
-
 }

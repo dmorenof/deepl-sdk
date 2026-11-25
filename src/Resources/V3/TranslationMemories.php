@@ -219,5 +219,4 @@ final class TranslationMemories extends \DeepLSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_TRANSLATION_MEMORY_ID), path: ['translation_memory_id' => $translation_memory_id]);
         return $result;
     }
-
 }

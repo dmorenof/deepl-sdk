@@ -32,5 +32,4 @@ final class Dictionaries extends \DeepLSDK\DeepLAPIDocumentationSDK
         }
         return self::client()->resource(\DeepLSDK\Resources\V3\Glossaries\ByGlossaryId\Dictionaries::class)->put($glossary_id, $payload);
     }
-
 }

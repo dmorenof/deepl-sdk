@@ -7,8 +7,8 @@ namespace DeepLSDK\DTOs\InfrastructureErrorResponse;
 final class ErrorDTO extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'message',
-];
+        'message',
+    ];
 
     /**
      * A human-readable description of the error.

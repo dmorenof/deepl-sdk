@@ -10,20 +10,20 @@ namespace DeepLSDK\DTOs\Job\SourceFile;
 final class Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'content_length',
-    'content_type',
-    'name',
-];
+        'content_length',
+        'content_type',
+        'name',
+    ];
 
     protected const array VALIDATION = [
-    'content_length' => [
-        'minimum' => 1,
-        'maximum' => 1073741824,
-    ],
-    'name' => [
-        'minLength' => 1,
-    ],
-];
+        'content_length' => [
+            'minimum' => 1,
+            'maximum' => 1073741824,
+        ],
+        'name' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * The size of the source audio file in bytes. Maximum 1 GB (1,073,741,824 bytes).

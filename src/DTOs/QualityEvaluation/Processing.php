@@ -7,9 +7,9 @@ namespace DeepLSDK\DTOs\QualityEvaluation;
 final class Processing extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'job_id',
-    'status',
-];
+        'job_id',
+        'status',
+    ];
 
     /**
      * Example: "04DE5AD98A02647D83285A36021911C6"

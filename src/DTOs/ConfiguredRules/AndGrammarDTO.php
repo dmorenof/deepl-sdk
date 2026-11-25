@@ -7,11 +7,11 @@ namespace DeepLSDK\DTOs\ConfiguredRules;
 final class AndGrammarDTO extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array PROPERTY_MAP = [
-    'accents_in_verbs_conjugated_like_french_word_céder' => 'accents_in_verbs_conjugated_like_french_word_ceder',
-];
+        'accents_in_verbs_conjugated_like_french_word_céder' => 'accents_in_verbs_conjugated_like_french_word_ceder',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'accents_in_verbs_conjugated_like_french_word_ceder' => 'accents_in_verbs_conjugated_like_french_word_céder',
-];
+        'accents_in_verbs_conjugated_like_french_word_ceder' => 'accents_in_verbs_conjugated_like_french_word_céder',
+    ];
 
     /**
      * Formatting options for Abbreviating French Word Numero

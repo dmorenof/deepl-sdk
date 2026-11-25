@@ -7,8 +7,8 @@ namespace DeepLSDK\Requests\V2\Admin\DeveloperKeys\Deactivate;
 final class Put extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'key_id',
-];
+        'key_id',
+    ];
 
     /**
      * API key ID. Consists of two valid GUIDs separated by a colon.

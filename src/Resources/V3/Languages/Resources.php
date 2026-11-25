@@ -74,5 +74,4 @@ final class Resources extends \DeepLSDK\Client
         $result = $this->executeOperation(self::operation(self::GET));
         return $result;
     }
-
 }

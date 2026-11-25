@@ -21,5 +21,4 @@ final class Resources extends \DeepLSDK\DeepLAPIDocumentationSDK
     {
         return self::client()->resource(\DeepLSDK\Resources\V3\Languages\Resources::class)->get();
     }
-
 }

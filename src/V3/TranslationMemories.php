@@ -49,5 +49,4 @@ final class TranslationMemories extends \DeepLSDK\DeepLAPIDocumentationSDK
     {
         return self::client()->resource(\DeepLSDK\Resources\V3\TranslationMemories::class)->getByTranslationMemoryId($translation_memory_id);
     }
-
 }

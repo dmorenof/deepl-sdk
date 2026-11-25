@@ -7,9 +7,9 @@ namespace DeepLSDK\DTOs\QualityEvaluation\Failed;
 final class ErrorDTO extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'code',
-    'message',
-];
+        'code',
+        'message',
+    ];
 
     /**
      * Machine-readable error code. Currently always `evaluation_failed`.

@@ -7,15 +7,15 @@ namespace DeepLSDK\Requests\V3\StyleRules\Post;
 final class CustomInstructionsRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'label',
-    'prompt',
-];
+        'label',
+        'prompt',
+    ];
 
     protected const array VALIDATION = [
-    'prompt' => [
-        'maxLength' => 300,
-    ],
-];
+        'prompt' => [
+            'maxLength' => 300,
+        ],
+    ];
 
     /**
      * Label for the custom instruction

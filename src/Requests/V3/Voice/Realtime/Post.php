@@ -7,17 +7,17 @@ namespace DeepLSDK\Requests\V3\Voice\Realtime;
 final class Post extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'source_media_content_type',
-];
+        'source_media_content_type',
+    ];
 
     protected const array VALIDATION = [
-    'target_languages' => [
-        'maxItems' => 5,
-    ],
-    'target_media_languages' => [
-        'maxItems' => 1,
-    ],
-];
+        'target_languages' => [
+            'maxItems' => 5,
+        ],
+        'target_media_languages' => [
+            'maxItems' => 1,
+        ],
+    ];
 
     public \DeepLSDK\Enums\Voice\Formality $formality;
     /**

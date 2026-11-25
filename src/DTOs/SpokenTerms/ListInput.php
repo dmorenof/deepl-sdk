@@ -7,15 +7,15 @@ namespace DeepLSDK\DTOs\SpokenTerms;
 final class ListInput extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'entries',
-    'lang',
-];
+        'entries',
+        'lang',
+    ];
 
     protected const array VALIDATION = [
-    'entries' => [
-        'maxLength' => 300,
-    ],
-];
+        'entries' => [
+            'maxLength' => 300,
+        ],
+    ];
 
     /**
      * Newline-separated list of terms, one term per line. Maximum 300 characters total.

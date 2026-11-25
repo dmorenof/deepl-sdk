@@ -10,10 +10,10 @@ namespace DeepLSDK\DTOs\Job\SourceFile;
 final class Response extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'content_length',
-    'content_type',
-    'name',
-];
+        'content_length',
+        'content_type',
+        'name',
+    ];
 
     /**
      * The size of the source audio file in bytes.

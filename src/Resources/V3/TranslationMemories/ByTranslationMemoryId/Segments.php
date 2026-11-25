@@ -82,5 +82,4 @@ final class Segments extends \DeepLSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), path: ['translation_memory_id' => $translation_memory_id], parameters: $params);
         return $result;
     }
-
 }

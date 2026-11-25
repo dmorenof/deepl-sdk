@@ -371,5 +371,4 @@ final class StyleRules extends \DeepLSDK\Client
         $result = $this->executeBody(self::operation(self::PATCH_BY_STYLE_ID), $payload, path: ['style_id' => $style_id]);
         return $result;
     }
-
 }

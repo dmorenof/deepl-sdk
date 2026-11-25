@@ -7,15 +7,15 @@ namespace DeepLSDK\DTOs\Style;
 final class Profile extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'creation_time',
-    'glossary_ids',
-    'glossary_priority_order_enabled',
-    'name',
-    'style_profile_id',
-    'style_rule_ids',
-    'translation_memory_ids',
-    'updated_time',
-];
+        'creation_time',
+        'glossary_ids',
+        'glossary_priority_order_enabled',
+        'name',
+        'style_profile_id',
+        'style_rule_ids',
+        'translation_memory_ids',
+        'updated_time',
+    ];
 
     /**
      * The creation time of the style profile in the ISO 8601-1:2019 format (e.g.: `2021-08-03T14:16:18.329Z`).

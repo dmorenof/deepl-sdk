@@ -7,8 +7,8 @@ namespace DeepLSDK\DTOs\QualityEvaluation;
 final class ApiError extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'message',
-];
+        'message',
+    ];
 
     /**
      * Error message.

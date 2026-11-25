@@ -7,10 +7,10 @@ namespace DeepLSDK\Responses\V3\TranslationMemories\Import;
 final class Post extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'expires_at',
-    'job_id',
-    'upload_url',
-];
+        'expires_at',
+        'job_id',
+        'upload_url',
+    ];
 
     /**
      * The time the `upload_url` stops accepting uploads, in the ISO 8601-1:2019 format. After

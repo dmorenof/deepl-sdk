@@ -10,5 +10,4 @@ final class Get extends \Dmorenof\SdkRuntime\DTO
      * The list of supported languages
      */
     public \DeepLSDK\Collections\V2\GlossaryLanguagePairs\Get\SupportedLanguagesCollection $supported_languages;
-
 }
