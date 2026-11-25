@@ -1,0 +1,10 @@
+<?php
+
+declare(strict_types=1);
+
+namespace DeepLSDK\Enums\ConfiguredRules\Numbers;
+
+enum AndKanjiEnum: string
+{
+    case UseHiraganaJapaneseWordKaSuoOrKaYueWhenUsingArabicNumeralsInHorizontalWritingButUseKanjiJapaneseWordGeSuoOrGeYueWhenUsingKanjiNumbers = 'use_hiragana_japanese_word_か所_or_か月_when_using_arabic_numerals_in_horizontal_writing_but_use_kanji_japanese_word_箇所_or_箇月_when_using_kanji_numbers';
+}

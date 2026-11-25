@@ -1,0 +1,15 @@
+<?php
+
+declare(strict_types=1);
+
+namespace DeepLSDK\Enums\ConfiguredRules\Numbers;
+
+enum Value4DigitsEnum: string
+{
+    case UseCommaAsDecimalSeparatorAndPeriodAsThousandsSeparator = 'use_comma_as_decimal_separator_and_period_as_thousands_separator';
+    case UseCommaAsDecimalSeparatorAndSpaceAsThousandsSeparator = 'use_comma_as_decimal_separator_and_space_as_thousands_separator';
+    case UseCommaAsDecimalSeparatorPeriodAsThousandsSeparatorAndPeriodForRadioStations = 'use_comma_as_decimal_separator_period_as_thousands_separator_and_period_for_radio_stations';
+    case UseCommaAsDecimalSeparatorSpaceAsThousandsSeparatorAndPeriodForRadioStations = 'use_comma_as_decimal_separator_space_as_thousands_separator_and_period_for_radio_stations';
+    case UsePeriodAsDecimalSeparatorAndCommaAsThousandsSeparator = 'use_period_as_decimal_separator_and_comma_as_thousands_separator';
+    case UsePeriodAsDecimalSeparatorAndSpaceAsThousandsSeparator = 'use_period_as_decimal_separator_and_space_as_thousands_separator';
+}

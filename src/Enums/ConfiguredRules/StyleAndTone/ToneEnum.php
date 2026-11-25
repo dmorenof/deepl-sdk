@@ -1,0 +1,11 @@
+<?php
+
+declare(strict_types=1);
+
+namespace DeepLSDK\Enums\ConfiguredRules\StyleAndTone;
+
+enum ToneEnum: string
+{
+    case UseDearuStyleToGiveImpressionContentIsAccurateAndRigorousOrToConveySenseOfConfidenceAndReliability = 'use_dearu_style_to_give_impression_content_is_accurate_and_rigorous_or_to_convey_sense_of_confidence_and_reliability';
+    case UseDesuMasuStyleToGiveImpressionContentIsPlainAndStraightforwardOrToGiveReaderReassuringOrSoftImpression = 'use_desu_masu_style_to_give_impression_content_is_plain_and_straightforward_or_to_give_reader_reassuring_or_soft_impression';
+}

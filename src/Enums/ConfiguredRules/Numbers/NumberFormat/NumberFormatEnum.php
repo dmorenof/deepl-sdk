@@ -1,0 +1,10 @@
+<?php
+
+declare(strict_types=1);
+
+namespace DeepLSDK\Enums\ConfiguredRules\Numbers\NumberFormat;
+
+enum NumberFormatEnum: string
+{
+    case UseHalfWidthCommaToSeparateLargeNumbersIntoUnitsOfThreeExceptForCalendarYearsAndUseHalfWidthPeriodAsDecimalSeparator = 'use_half_width_comma_to_separate_large_numbers_into_units_of_three_except_for_calendar_years_and_use_half_width_period_as_decimal_separator';
+}

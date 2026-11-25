@@ -1,0 +1,18 @@
+<?php
+
+declare(strict_types=1);
+
+namespace DeepLSDK\Responses\V2\Glossaries;
+
+final class Get extends \Dmorenof\SdkRuntime\DTO
+{
+    public \DeepLSDK\Collections\V2\Glossaries\Get\GlossariesGlossariesCollection $glossaries;
+
+    protected function assignMember(string $name, mixed $value): void
+    {
+        match ($name) {
+            'glossaries' => is_array($value) && array_is_list($value) && array_all($value, static fn (mixed $item): bool => $item instanceof \stdClass) ? $this->glossaries = new \DeepLSDK\Collections\V2\Glossaries\Get\GlossariesGlossariesCollection(\Dmorenof\SdkRuntime\Hydrator::models($value, \DeepLSDK\DTOs\MonolingualGlossary::class)) : parent::assignMember($name, $value),
+            default => parent::assignMember($name, $value),
+        };
+    }
+}

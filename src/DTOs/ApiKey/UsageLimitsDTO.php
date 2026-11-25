@@ -1,0 +1,44 @@
+<?php
+
+declare(strict_types=1);
+
+namespace DeepLSDK\DTOs\ApiKey;
+
+/**
+ * Usage limits for the API key.
+ */
+final class UsageLimitsDTO extends \Dmorenof\SdkRuntime\DTO
+{
+    /**
+     * Restricts the number of total characters (across text translation, document translation, and text improvement) that can be consumed by an API key in a one-month usage period.
+     *
+     * Setting the limit to `0` means the API key will not be able to consume characters.
+     * Setting the limit to `null` disables the limit, effectively allowing unlimited usage.
+     *
+     */
+    public float $characters;
+    /**
+     * Restricts the number of milliseconds of speech-to-speech that can be consumed by an API key in a one-month usage period.
+     * Setting the limit to `0` means the API key will not be able to consume speech-to-speech milliseconds.
+     * Setting the limit to `null` disables the limit, effectively allowing unlimited usage.
+     *
+     */
+    public float $speech_to_speech_milliseconds;
+    /**
+     * Restricts the number of milliseconds of speech-to-text that can be consumed by an API key in a one-month usage period.
+     * Setting the limit to `0` means the API key will not be able to consume speech-to-text milliseconds.
+     * Setting the limit to `null` disables the limit, effectively allowing unlimited usage.
+     *
+     */
+    public float $speech_to_text_milliseconds;
+
+    protected function assignMember(string $name, mixed $value): void
+    {
+        match ($name) {
+            'characters' => is_float($value) ? $this->characters = $value : parent::assignMember($name, $value),
+            'speech_to_speech_milliseconds' => is_float($value) ? $this->speech_to_speech_milliseconds = $value : parent::assignMember($name, $value),
+            'speech_to_text_milliseconds' => is_float($value) ? $this->speech_to_text_milliseconds = $value : parent::assignMember($name, $value),
+            default => parent::assignMember($name, $value),
+        };
+    }
+}
